@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .deskOnly{
+        display: none;
+    }
+    .mblOnly{
+        display: block;
+    }
+    .form_content {
+        margin-left: unset !important;
+    }
+
+    .intro_content p:nth-of-type(1) {
+        margin-top: 2rem !important;
+    }
+
+    .course_section p {
+        padding: unset!important;
+    }
+}

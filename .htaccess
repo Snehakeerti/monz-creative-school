@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule ^about-us$ about.php [L]
+
+//GZIP Compression
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+
+https://dx8gkdct.tinifycdn.com
